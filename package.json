@@ -1,20 +1,21 @@
 {
-  "name": "sample-node.js-application",
+  "name": "real-time-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "Real-time Node.js app with CI/CD using GitHub Actions",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "test": "mocha --recursive --exit"
+    "test": "mocha"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Prathmesh",
   "license": "ISC",
-  "devDependencies": {
-    "chai": "^4.3.10",
-    "mocha": "^6.2.1"
-  },
   "dependencies": {
-    "chai-http": "^4.4.0"
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "supertest": "^6.3.3"
   }
 }
